@@ -1,0 +1,124 @@
+{
+    "reviews": [
+      {
+        "professor": "Dr. Emily Thompson",
+        "subject": "Physics",
+        "stars": 4,
+        "review": "Dr. Thompson explains complex concepts clearly and is always willing to help during office hours."
+      },
+      {
+        "professor": "Prof. Michael Chen",
+        "subject": "Computer Science",
+        "stars": 5,
+        "review": "Brilliant professor! His lectures are engaging and he provides practical coding examples."
+      },
+      {
+        "professor": "Dr. Sarah Johnson",
+        "subject": "Biology",
+        "stars": 3,
+        "review": "Knowledgeable but sometimes goes too fast. Could improve on explaining difficult topics."
+      },
+      {
+        "professor": "Prof. David Martinez",
+        "subject": "History",
+        "stars": 4,
+        "review": "Passionate about the subject and brings historical events to life. Assignments can be challenging."
+      },
+      {
+        "professor": "Dr. Rachel Lee",
+        "subject": "Psychology",
+        "stars": 5,
+        "review": "Exceptional teacher! Her classes are thought-provoking and she encourages critical thinking."
+      },
+      {
+        "professor": "Prof. Robert Wilson",
+        "subject": "Mathematics",
+        "stars": 2,
+        "review": "Struggles to explain complex concepts. Often seems unprepared for lectures."
+      },
+      {
+        "professor": "Dr. Amanda Brown",
+        "subject": "Chemistry",
+        "stars": 4,
+        "review": "Excellent lab instructor. Lectures can be dry but she's very helpful during office hours."
+      },
+      {
+        "professor": "Prof. James Taylor",
+        "subject": "English Literature",
+        "stars": 5,
+        "review": "Inspiring professor who brings classic literature to life. Discussions are always engaging."
+      },
+      {
+        "professor": "Dr. Lisa Wang",
+        "subject": "Economics",
+        "stars": 3,
+        "review": "Knowledgeable but can be intimidating. Exams are very difficult."
+      },
+      {
+        "professor": "Prof. Thomas Green",
+        "subject": "Philosophy",
+        "stars": 4,
+        "review": "Challenges students to think critically. Sometimes goes off on tangents but overall great."
+      },
+      {
+        "professor": "Dr. Jessica Adams",
+        "subject": "Sociology",
+        "stars": 5,
+        "review": "Fantastic professor who relates course material to real-world issues. Very approachable."
+      },
+      {
+        "professor": "Prof. Mark Stevens",
+        "subject": "Political Science",
+        "stars": 2,
+        "review": "Seems disinterested in teaching. Lectures are poorly organized and hard to follow."
+      },
+      {
+        "professor": "Dr. Laura Martinez",
+        "subject": "Art History",
+        "stars": 4,
+        "review": "Passionate about art and makes the subject interesting. Could improve on providing feedback."
+      },
+      {
+        "professor": "Prof. Daniel Kim",
+        "subject": "Engineering",
+        "stars": 3,
+        "review": "Highly knowledgeable but not great at explaining. Projects are interesting but challenging."
+      },
+      {
+        "professor": "Dr. Olivia Clark",
+        "subject": "Environmental Science",
+        "stars": 5,
+        "review": "Inspiring teacher who brings real-world experience to the classroom. Fieldwork is excellent."
+      },
+      {
+        "professor": "Prof. William Turner",
+        "subject": "Music Theory",
+        "stars": 4,
+        "review": "Skilled musician and good teacher. Sometimes assumes too much prior knowledge."
+      },
+      {
+        "professor": "Dr. Sophia Patel",
+        "subject": "Linguistics",
+        "stars": 5,
+        "review": "Brilliant professor who makes language study fascinating. Always available for extra help."
+      },
+      {
+        "professor": "Prof. John Anderson",
+        "subject": "Business Administration",
+        "stars": 3,
+        "review": "Brings real-world experience but can be disorganized. Group projects are hit or miss."
+      },
+      {
+        "professor": "Dr. Emma Wright",
+        "subject": "Anthropology",
+        "stars": 4,
+        "review": "Engaging lecturer with interesting fieldwork stories. Assignments can be vague at times."
+      },
+      {
+        "professor": "Prof. Alexander Lee",
+        "subject": "Statistics",
+        "stars": 2,
+        "review": "Struggles to explain concepts clearly. Often seems frustrated with student questions."
+      }
+    ]
+  }
