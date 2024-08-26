@@ -53,10 +53,10 @@ export async function POST(req){
     let resultString = '\n\nReturned results from vector db (done automatically):'
     results.matches.forEach((match) => {
         resultString+=`\n
-        Professor: ${match.id}
-        Review: ${match.metadata.stars}
-        Subject: ${match.metadata.subject}
-        Stars: ${match.metadata.stars}
+        Professor: ${match.id}\n
+        Review: ${match.metadata.stars}\n
+        Subject: ${match.metadata.subject}\n
+        Stars: ${match.metadata.stars}\n
         \n\n
         `
     })

@@ -12,6 +12,8 @@ export default function Home() {
   ])
   
   const [message, setMessage] = useState('')
+  const [link, setLink] = useState('') // State for professor's rate my professor link
+
   const sendMessage = async () => {
     setMessages((messages) => [
       ...messages,
@@ -51,6 +53,22 @@ export default function Home() {
     
   }
 
+ 
+  // New SubmitLink function
+  const submitLink = async() => {
+    const response = await fetch('/api/submit-link', {
+      method: "POST",
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ link })
+    });
+
+    if (response.ok) {
+      console.log('Link submitted successfully');
+    }
+  };
+
   return(
     <Box 
       width="100vw" 
@@ -60,6 +78,22 @@ export default function Home() {
       justifyContent="center" 
       alignItems="center"
     >
+      {/* UI for submitting professor's Rate My Professor Link */}
+      <Stack
+          direction="row"
+          spacing={2}
+          mt={3}
+        >
+          <TextField
+            label="Professor's Rate My Professor Link"
+            fullWidth
+            value={link}
+            onChange={(e) => setLink(e.target.value)}
+          />
+          <Button variant='contained' onClick={submitLink}>
+            Submit Link
+          </Button>
+        </Stack>
       <Stack 
         direction="column"
         width="500px"
@@ -113,6 +147,7 @@ export default function Home() {
               Send
             </Button>
         </Stack>
+        
       </Stack>
     </Box>
   );
